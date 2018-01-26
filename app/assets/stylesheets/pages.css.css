@@ -1,0 +1,94 @@
+#title {
+  position: relative;
+  width: 100%;
+  background-color: gray;
+  height: 100px;
+  z-index: 4;
+}
+
+#title h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+#title h2 {
+  font-family: Arial, serif;
+  font-size: 30px;
+}
+
+#title .develop {
+  color: lightgreen;
+}
+
+#title #subheading {
+  background-color: white;
+}
+
+#navigation {
+  position: relative;
+  top: 40px;
+  padding: 10px;
+  width: 100%;
+  min-width: 200px;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  text-align: left;
+}
+
+#navigation a {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  width: 100px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+#navigation li {
+  font-size: 18px;
+  color: black;
+  font-style: bold;
+  display: inline-block;
+}
+
+#navigation a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-style: normal;
+}
+
+.container {
+  position: absolute;
+  width: 400px;
+  margin: 170px;
+  z-index: 1;
+}
+
+#foot {
+  position: relative;
+  background-color: lightblue;
+  margin: 40px;
+  z-index: 2;
+  border: 1px solid LightGrey;
+  padding: 10px 0px;
+  text-align: center;
+  width: 80%;
+  height: 80px;
+  border-radius: 5px;
+}
+
+#foot a:hover {
+  background-color: white;
+  color: black;
+}
+
+footer a {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
